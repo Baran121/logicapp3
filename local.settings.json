@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=myownapp126;AccountKey=acgYGJrllec+IsZuqN9IBSvX1gC2ahNKhGEv3YjTHbBQxB4hSSGbMbNAxky/jJW8bVe8MWfwAWv9wKgfgBcVbQ==;BlobEndpoint=https://myownapp126.blob.core.windows.net/;QueueEndpoint=https://myownapp126.queue.core.windows.net/;TableEndpoint=https://myownapp126.table.core.windows.net/;FileEndpoint=https://myownapp126.file.core.windows.net/;",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WORKFLOWS_SUBSCRIPTION_ID": "ac3f2baa-83c9-48ac-b96d-cf13ba4ca679",
+    "WORKFLOWS_TENANT_ID": "325a786c-0871-4138-a02d-b767407113b5",
+    "WORKFLOWS_RESOURCE_GROUP_NAME": "7babies",
+    "WORKFLOWS_LOCATION_NAME": "eastus",
+    "WORKFLOWS_MANAGEMENT_BASE_URI": "https://management.azure.com/",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "ee746dbd-ad40-41e4-b506-701c5b99f8bb"
+  }
+}
