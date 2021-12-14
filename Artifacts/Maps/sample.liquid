@@ -1,0 +1,20 @@
+{%- assign deviceList = content.devices | Split: ', ' -%}
+
+{
+   "fullName": [ "{{content.firstName | Append: ' ' | Append: content.lastName}}" ], 
+   "firstNameUpperCase": "{{content.firstName | Upcase}}",
+   "phoneAreaCode": "{{content.phone | Slice: 1, 3}}",
+   "devices" : [
+      {%- for item in deviceList -%}
+         {%- if forloop.Last == true -%}
+         "{{item}}"
+         {%- else -%}
+         "{{item}}",
+         {%- endif -%}
+      {%- endfor -%}     
+   ],
+   "listPrice": {
+            "amount": "{{ content.firstName }}",
+            "currency": "{{ content.firstName }}"
+        }
+}
